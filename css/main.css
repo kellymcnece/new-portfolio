@@ -39,7 +39,7 @@ header h1{
 
 nav{
   float: right;
-  padding: 75px 25px;
+  padding: 75px 35px;
 }
 
 nav ul li{
@@ -51,7 +51,7 @@ nav ul li a{
   text-decoration: none;
   font-size: 20px;
   color: #000000;
-  padding-left: 80px;
+  padding-left: 20px;
 }
 
 header h2{
@@ -118,7 +118,23 @@ header h2 span{
   padding: 0 50px;
 }
 /***** PORTFOLIO *****/
+#portfolio .full-width {
+  padding: 115px 0;
+  height: 400px;
+}
 
+#portfolio {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#portfolio h2 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 36px;
+  line-height: 32px;
+  margin: 0 auto;
+
+}
 
 /***** CONTACT *****/
 #contact{
@@ -175,4 +191,8 @@ header h2 span{
 .border {
   margin-left: 25px;
   border: 12px solid #fcaf01;
+}
+
+a:hover {
+  color: #ce4090;
 }
